@@ -1,8 +1,11 @@
- .background{
+ 
+body{
+    overflow-x: hidden;
+} .background{
     background: url(../images/Frame.png);
     position: absolute;
-    width: 1250PX;
-    height: 876px;
+    width: 1250px;
+    height:876px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -191,3 +194,431 @@
     top: 62px;
     color: rgb(255, 255, 255);
 }
+
+.white{
+    position: absolute;
+    border: 1px solid white;
+    background-color: rgb(255, 255, 255);
+    width:560px ;
+    height:245px;
+    left: 620px;
+    bottom: 2px;
+    border-radius: 25px 25px 25px 25px;
+
+}
+
+ .text-doctor{
+    position: relative;
+    border: 1px solid gray;
+    width: 250px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px 20px 20px 20px;
+    left: 20px;
+    top: 20px;
+}
+.text-doctor >p{
+    position: relative;
+    color: rgb(153, 153, 153);
+    left:60px ;
+}
+
+.doctors-bag{
+    position: relative;
+    left: 35px;
+    bottom: 18px;
+    width: 20px;
+    height: 17px;
+}
+
+.select{
+    position: relative;
+    left: 230px;
+    bottom: 30px;
+}
+
+#s{
+    width: 18px;
+}
+
+.text-doctor-name{
+    position: absolute;
+    border: 1px solid gray;
+    width: 250px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px 20px 20px 20px;
+    left: 290px;
+    top: 20px;
+}
+
+.text-doctor-name >p{
+    position: relative;
+    color: rgb(153, 153, 153);
+    left:60px ;
+}
+
+.doctor-bage2{
+    position: relative;
+    left: 310px;
+    bottom: 52px;
+    width: 20px;
+    height: 17px;
+}
+
+.select1{
+    position: relative;
+    left: 500px;
+    bottom: 65px;
+}
+
+#v{
+    width: 18px;
+}
+
+.text-date{
+    position: absolute;
+    border: 1px solid gray;
+    width: 250px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px 20px 20px 20px;
+    left: 20px;
+    top: 100px;
+}
+
+.text-date >p{
+    position: relative;
+    color: rgb(153, 153, 153);
+    left:60px ;
+}
+
+.calendar{
+    position: relative;
+    left: 35px;
+    bottom: 8px;
+    width: 20px;
+    height: 17px;
+}
+
+.input-date{
+    position: relative;
+    left: 140px;
+    bottom: 25px
+}
+
+.text-time{
+    position: absolute;
+    border: 1px solid gray;
+    width: 250px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px 20px 20px 20px;
+    left: 290px;
+    top: 100px;
+}
+
+.text-time >p{
+    position: relative;
+    color: rgb(153, 153, 153);
+    left:60px ;
+}
+
+.clock2{
+    position: relative;
+    left: 310px;
+    bottom: 45px;
+    width: 20px;
+    height: 17px;
+}
+
+.input-time{
+    position: relative;
+    left:450px;
+    bottom: 63px;
+}
+
+.check-doctor{
+    position: relative;
+    border: 1px solid rgb(255, 74, 74);
+    border-radius: 50px 50px 50px 50px;
+    width: 250px;
+    background-color:rgb(255, 74, 74) ;
+    left: 160px;
+    bottom: 10px;
+}
+
+.check-doctor >p{
+    position: relative;
+    color: white;
+    left: 40px;
+}
+
+.ads{
+    position: absolute;
+    border: 1px solid white;
+    width: 1440px;
+    height: 260px;
+    background-color: white;
+    top: 877px;
+}
+
+.image1-ads{
+    position: relative;
+    width: 150px;
+    height: 55px;
+    top: 103px ;
+}
+
+.image2-ads{
+    position: relative;
+    width: 150px;
+    height: 55px;
+    top: 51px ;
+    left: 260px;
+}
+
+.image3-ads{
+    position: relative;
+    width: 150px;
+    height: 55px;
+    top: 1px ;
+    left: 620px;
+}
+
+.image4-ads{
+    position: relative;
+    width: 150px;
+    height: 55px;
+    bottom: 50px;
+    left: 980px;
+}
+
+.about{
+    position: relative;
+    border: 1px solid rgb(255, 255, 255);
+    
+    width: 1250px;
+    height: 833px;
+    top: 400px;
+}
+.border-about{
+    border: 1px solid rgb(206, 207, 208);
+    width: 1210px;
+    height:  833px;
+    background-color: rgb(206, 207, 208);
+    border-radius: 25px 25px 25px 25px;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+.about-us{
+    position: relative;
+    border: 1px solid rgb(54, 219, 54);
+    background-color:rgb(54, 219, 54) ;
+    border-radius:  50px 50px 0px 50px;
+    width: 140px;
+    height: 48px;
+    left: 60%;
+    top: 72px;
+}
+
+.about-us >p{
+    position: relative;
+    left: 40px;
+}
+
+.first-img-about{
+    position: relative;
+    top: 20px;
+    left: 10%;
+}
+.second-img-about{
+    position: relative;
+    top: 40px;
+    left: 10%;
+}
+
+.we-are .pp1{
+    position: relative;
+    left: 62%;
+    bottom: 570px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(47, 162, 244);
+}
+.we-are .pp2{
+    position: relative;
+    left: 62%;
+    bottom: 590px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(47, 162, 244);
+}
+
+.text-about2 .ppp1{
+    position: relative;
+    left: 62%;
+    bottom: 780px;
+}
+
+.text-about2 .ppp2{
+    position: relative;
+    left: 62%;
+    bottom: 785px;
+}
+
+.text-about2 .ppp3{
+    position: relative;
+    left: 62%;
+    bottom: 790px;
+}
+
+.text-about2 .ppp4{
+    position: relative;
+    left: 62%;
+    bottom: 795px;
+}
+
+.text-about1{
+    position: relative;
+    border: 1px solid gray;
+    width: 400px;
+    height: 170px;
+    left: 60%;
+    bottom: 395px;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.text-about1 .pppp1{
+    position: relative;
+    left: 20px;
+    top: 20px;
+    font-size: 12px;
+}
+
+.text-about1 .pppp2{
+    position: relative;
+    left: 20px;
+    top: 11px;
+    font-size: 12px;
+}
+.text-about1 .pppp3{
+    position: relative;
+    left: 20px;
+    top: 5px;
+    font-size: 12px;
+}
+.text-about1 .pppp4{
+    position: relative;
+    left: 20px;
+    top: 0px;
+    font-size: 12px;
+}
+
+.img-twop{
+    position: relative;
+    left: 60%;
+    bottom: 756px;
+}
+
+.blue-text{
+    position: relative;
+    left: 68%;
+    bottom: 662px;
+    color: rgb(47, 162, 244);
+}
+
+.icon-blue{
+    position: relative;
+    left: 62%;
+    bottom: 700px;
+}
+
+.red-about{
+    position: relative;
+    border: 1px solid red;
+    left: 61%;
+    bottom: 660px;
+    width: 180px;
+    border-radius: 50px;
+    background-color: red;
+}
+.red-about >p{
+    position: relative;
+    left: 20px;
+    color: white;
+}
+.red-icon-about{
+    position: relative;
+    left: 72%;
+    bottom: 703px;
+}
+.statistique{
+    position: absolute;
+    border: 1px solid rgb(255, 255, 255);
+    width: 100%;
+    height: 100px;
+    top: 1990px;
+}
+
+.statistique .a1{
+    position: relative;
+    color: rgb(41, 110, 189);
+    font-size: 65px;
+    font-weight: bold;
+    left: 150px;
+    bottom: 50px;
+}
+
+.statistique .a2{
+    position: relative;
+    color: rgb(41, 110, 189);
+    font-size: 65px;
+    font-weight: bold;
+    left: 450px;
+    bottom: 190px;
+}
+
+.statistique .a3{
+    position: relative;
+    color: rgb(41, 110, 189);
+    font-size: 65px;
+    font-weight: bold;
+    left: 630px;
+    bottom: 330px;
+}
+
+.statistique .a4{
+    position: relative;
+    color: rgb(41, 110, 189);
+    font-size: 65px;
+    font-weight: bold;
+    left: 920px;
+    bottom: 466px;
+}
+
+.nome-statistique .ap1{
+    position: relative;
+    left: 170px;
+    top:470px;
+}
+
+.nome-statistique .ap2{
+    position: relative;
+    left: 450px;
+    top:430px;
+}
+
+.nome-statistique .ap3{
+    position: relative;
+    left: 640px;
+    top:399px;
+}
+
+.nome-statistique .ap4{
+    position: relative;
+    left: 950px;
+    top:363px;
+}
+
