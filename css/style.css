@@ -406,7 +406,7 @@ body{
     border: 1px solid rgb(206, 207, 208);
     width: 1210px;
     height:  833px;
-    background-color: rgb(206, 207, 208);
+    background-color: #D6F6FD;
     border-radius: 25px 25px 25px 25px;
     margin-left: 20px;
     margin-right: 40px;
@@ -626,8 +626,8 @@ body{
     position: absolute;
     border: 1px solid white;
     width: 1250px;
-    height:2000px;
-    background-color: rgb(255, 255, 255);
+    height:1950px;
+    background-color: #D6F6FD;
     top: 2110px;
 }
 
@@ -1044,4 +1044,705 @@ body{
     height: 32px;
 }
 
+.pricing-1{
+    position: absolute;
+    border:1px solid #ffffff;
+    background-color: #ffffff;
+    top: 4000px;
+    width: 100%;
+    
+}
+
+.text-prix-1{
+    position: relative;
+    color: white;
+    border:1px solid green;
+    width: 120px;
+    height: 44px;
+    background-color: green;
+    left: 150px;
+    border-radius: 25px 25px 0px 25px;
+
+}
+
+.text-prix-1 >p{
+    position: relative;
+    left: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: gray;
+}
+
+.titel-prix{
+    position: relative;
+    left: 145px;
+    color: #3498DB;
+    font-weight: bold;
+    font-size: 50px;
+    bottom: 40px;
+}
+
+.text-titel{
+    position: relative;
+    left: 600px;
+    bottom: 160px;
+}
+
+.er-1{
+    position: absolute;
+    border: 1px solid gray;
+    width: 250px;
+    height: 400px;
+    border-radius:  25px 25px 25px 25px;
+    left: 150px;
+    top: 200px;
+}
+
+.titel-1er{
+    position: relative;
+    left: 20px;
+    color: #3498DB;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.titel-1er .gen{ 
+    position: relative;
+    bottom: 20px;
+}
+
+.text-titel-1er{
+    position: relative;
+    left: 20px;
+    bottom: 20px;
+    font-size: 10px;
+    
+}
+
+.text-titel-1er .lo{
+    position: relative;
+    bottom:10px ;
+}
+
+.text-titel-1er .rem{
+    position: relative;
+    bottom:19px ;
+}
+.text-titel-1er .lor{
+    position: relative;
+    bottom:27px ;
+}
+
+.prix-titel{
+    position: relative;
+    left: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    bottom: 55px;
+    color: #3498DB;
+}
+
+.titel-2er{
+    position: relative;
+    left: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    bottom: 50px;
+    color:#2677BC;
+}
+
+.text-titel-2er{
+    position: relative;
+    left: 20px;
+    bottom: 50px;
+    font-size: 10px;
+    
+}
+
+.text-titel-1er .lem{
+    position: relative;
+    bottom:30px ;
+}
+
+.text-titel-2er .rom{
+    position: relative;
+    bottom:32px ;
+}
+.text-titel-2er .mol{
+    position: relative;
+    bottom:32px ;
+}
+
+.prix-titel-2er{
+    position: relative;
+    left: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    bottom: 85px;
+    color: #3498DB;
+}
+
+.em-2{
+    position: absolute;
+    border: 1px solid gray;
+    width: 250px;
+    height: 250px;
+    border-radius:  25px 25px 25px 25px;
+    left: 500px;
+    top: 200px;
+}
+
+.titel-2em{
+    position: relative;
+    left: 20px;
+    color: #3498DB;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+.text-titel-2em{
+    position: relative;
+    left: 20px;
+    bottom: 10px;
+    font-size: 10px;
+    
+}
+
+.text-titel-2em .ll{
+    position: relative;
+    bottom:10px ;
+}
+
+.text-titel-2em .oo{
+    position: relative;
+    bottom:19px ;
+}
+.text-titel-2em .rr{
+    position: relative;
+    bottom:27px ;
+}
+
+.prix-titel-2em{
+    position: relative;
+    left: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    bottom: 45px;
+    color: #3498DB;
+}
+
+.em-3{
+    position: absolute;
+    border: 1px solid gray;
+    width: 250px;
+    height: 250px;
+    border-radius:  25px 25px 25px 25px;
+    left: 860px;
+    top: 200px;
+}
+
+.titel-3em{
+    position: relative;
+    left: 20px;
+    color: #3498DB;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+.text-titel-3em{
+    position: relative;
+    left: 20px;
+    bottom: 10px;
+    font-size: 10px;
+    
+}
+
+.text-titel-3em .ee{
+    position: relative;
+    bottom:10px ;
+}
+
+.text-titel-3em .mm{
+    position: relative;
+    bottom:19px ;
+}
+.text-titel-3em .mmm{
+    position: relative;
+    bottom:27px ;
+}
+
+.prix-titel-3em{
+    position: relative;
+    left: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    bottom: 45px;
+    color: #3498DB;
+}
+
+.services{
+    position: absolute;
+    border:1px solid #FF6F61;
+    background-color: #D6F6FD;
+    top: 4700px;
+    width: 100%;
+    height: 1000px;
+}
+
+.our-service{
+    position: relative;
+    left: 150px;
+    border: 1px solid #5EE088;
+    background-color: #5EE088;
+    border-radius:  50px 50px 0px 50px;
+    width: 150px;
+    height: 40px;
+    top: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.our-service >p{
+    position: relative;
+    left: 20px;
+    bottom: 3px;
+}
+
+.titel-service-sp{
+    position: relative;
+    left: 150px;
+    font-size: 35px;
+    top: 10px;
+    color: #3498DB;
+    font-weight: bold;
+}
+
+.med{
+    position: relative;
+    bottom: 30px;
+}
+
+
+.text-service{
+    position: relative;
+    left: 600px;
+    bottom: 160px;
+    color: gray;
+}
+
+
+.border-sp1{
+    position: absolute;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 25px 25px 25px 25px;
+    width: 300px;
+    height: 300px;
+    top: 250px;
+    background-color: white;
+    left: 100px;
+}
+
+.img-1{
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.number1{
+    position: relative;
+    left: 220px;
+    font-size: 55px;
+    font-weight: bold;
+    color: #D6F6FD;
+    bottom: 110px;
+
+}
+
+.text-sp1{
+    position: relative;
+    bottom: 140px;
+    left: 20px;
+    color: #5B5B5B;
+}
+
+.exp-sp1{
+    position: relative;
+    border: 1px solid red;
+    color: red;
+    left: 30px;
+    width: 150px;
+    bottom: 130px;
+    border-radius: 50px 50px 50px 50px;
+}
+.exp-sp1 >p{
+    position: relative;
+    left: 5px;
+}
+
+.icon-exp-sp1{
+    position: relative;
+    left: 140px;
+    bottom: 165px;
+}
+
+.border-sp2{
+    position: absolute;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 25px 25px 25px 25px;
+    width: 300px;
+    height: 300px;
+    top: 250px;
+    background-color: white;
+    left: 450px;
+}
+
+.img-2{
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.number2{
+    position: relative;
+    left: 220px;
+    font-size: 55px;
+    font-weight: bold;
+    color: #D6F6FD;
+    bottom: 110px;
+
+}
+
+.text-sp2{
+    position: relative;
+    bottom: 140px;
+    left: 20px;
+    color: #5B5B5B;
+}
+
+.exp-sp2{
+    position: relative;
+    border: 1px solid red;
+    color: red;
+    left: 30px;
+    width: 150px;
+    bottom: 130px;
+    border-radius: 50px 50px 50px 50px;
+}
+.exp-sp2 >p{
+    position: relative;
+    left: 5px;
+}
+
+.icon-exp-sp2{
+    position: relative;
+    left: 140px;
+    bottom: 165px;
+}
+
+.border-sp3{
+    position: absolute;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 25px 25px 25px 25px;
+    width: 300px;
+    height: 300px;
+    top: 250px;
+    background-color: white;
+    left: 800px;
+}
+
+.img-3{
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.number3{
+    position: relative;
+    left: 220px;
+    font-size: 55px;
+    font-weight: bold;
+    color: #D6F6FD;
+    bottom: 110px;
+
+}
+
+.text-sp3{
+    position: relative;
+    bottom: 140px;
+    left: 20px;
+    color: #5B5B5B;
+}
+
+.exp-sp3{
+    position: relative;
+    border: 1px solid red;
+    color: red;
+    left: 30px;
+    width: 150px;
+    bottom: 130px;
+    border-radius: 50px 50px 50px 50px;
+}
+.exp-sp3 >p{
+    position: relative;
+    left: 5px;
+}
+
+.icon-exp-sp3{
+    position: relative;
+    left: 140px;
+    bottom: 165px;
+}
+
+.border-sp4{
+    position: absolute;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 25px 25px 25px 25px;
+    width: 300px;
+    height: 300px;
+    top: 600px;
+    background-color: white;
+    left: 100px;
+}
+
+.img-4{
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.number4{
+    position: relative;
+    left: 220px;
+    font-size: 55px;
+    font-weight: bold;
+    color: #D6F6FD;
+    bottom: 110px;
+
+}
+
+.text-sp4{
+    position: relative;
+    bottom: 140px;
+    left: 20px;
+    color: #5B5B5B;
+}
+
+.exp-sp4{
+    position: relative;
+    border: 1px solid red;
+    color: red;
+    left: 30px;
+    width: 150px;
+    bottom: 130px;
+    border-radius: 50px 50px 50px 50px;
+}
+.exp-sp4 >p{
+    position: relative;
+    left: 5px;
+}
+
+.icon-exp-sp4{
+    position: relative;
+    left: 140px;
+    bottom: 165px;
+}
+
+.border-sp5{
+    position: absolute;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 25px 25px 25px 25px;
+    width: 300px;
+    height: 300px;
+    top: 600px;
+    background-color: white;
+    left: 450px;
+}
+
+.img-5{
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.number5{
+    position: relative;
+    left: 220px;
+    font-size: 55px;
+    font-weight: bold;
+    color: #D6F6FD;
+    bottom: 110px;
+
+}
+
+.text-sp5{
+    position: relative;
+    bottom: 140px;
+    left: 20px;
+    color: #5B5B5B;
+}
+
+.exp-sp5{
+    position: relative;
+    border: 1px solid red;
+    color: red;
+    left: 30px;
+    width: 150px;
+    bottom: 130px;
+    border-radius: 50px 50px 50px 50px;
+}
+.exp-sp5 >p{
+    position: relative;
+    left: 5px;
+}
+
+.icon-exp-sp5{
+    position: relative;
+    left: 140px;
+    bottom: 165px;
+}
+
+.border-sp6{
+    position: absolute;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 25px 25px 25px 25px;
+    width: 300px;
+    height: 300px;
+    top: 600px;
+    background-color: white;
+    left: 800px;
+}
+
+.img-6{
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.number6{
+    position: relative;
+    left: 220px;
+    font-size: 55px;
+    font-weight: bold;
+    color: #D6F6FD;
+    bottom: 110px;
+
+}
+
+.text-sp6{
+    position: relative;
+    bottom: 140px;
+    left: 20px;
+    color: #5B5B5B;
+}
+
+.exp-sp6{
+    position: relative;
+    border: 1px solid red;
+    color: red;
+    left: 30px;
+    width: 150px;
+    bottom: 130px;
+    border-radius: 50px 50px 50px 50px;
+}
+.exp-sp6 >p{
+    position: relative;
+    left: 5px;
+}
+
+.icon-exp-sp6{
+    position: relative;
+    left: 140px;
+    bottom: 165px;
+}
+
+.prix-rooms{
+    position: absolute;
+    border: 1px solid green;
+    width: 100%;
+    height: 1000px;
+    background-color: green;
+    top: 5750px;
+}
+
+
+.box-1{
+    position: absolute;
+    border: 1px solid gray;
+    border-radius:  25px 25px 25px 25px;
+    width: 380px;
+    height:800px;
+    left: 50px;
+    top: 300px;
+}
+
+.prix-titel-1{
+    position: relative;
+    top: 40px;
+    left: 50px;
+    border:1px solid #5EE088;
+    width: 120px;
+    height: 40px;
+    background-color: #5EE088;
+    border-radius: 50px 50px 0px 50px;
+}
+
+.prix-titel-1 >p{
+    position: relative;
+    left: 20px;
+    bottom: 5px;
+    color: #ffffff;
+}
+
+.titel-prix-1{
+    position: relative;
+    left: 50px;
+    top: 30px;
+    color: #3498DB;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.hos{
+    position: relative;
+    bottom: 30px;
+}
+
+.words-of-prix{
+    position: relative;
+    left: 450px;
+    bottom: 150px;
+}
+
+.title-box-1{
+    position: relative;
+    left: 40px;
+    font-size: 26px;
+    font-weight: bold;
+    color: #3498DB;
+}
+
+.text-prix{
+    position: relative;
+    left: 35px;
+    color: #5B5B5B;
+    font-size: 12px;
+}
+
+.cc{
+    position: relative;
+    bottom: 10px;
+}
+
+.he{
+    position: relative;
+    bottom: 15px;
+}
+
+.mas{
+    position: relative;
+    bottom: 20px;
+}
 
