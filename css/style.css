@@ -2097,3 +2097,228 @@ body{
     left: 220px;
     bottom: 49px;
 }
+
+.contact{
+    background:  url(../images/Frame.png);
+    
+    top: 7000px;
+    position: absolute;
+    width: 1250px;
+    height:876px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+}
+
+.mini-box{
+    position:absolute;
+    border: 1px solid white;
+    width: 1030px;
+    height: 700px;
+    left: 110px;
+    top: 88px;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.book-an{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    border: 1px solid #5EE088;
+    border-radius: 25px 25px 0px 25px;
+    background-color: #5EE088;
+    width: 250px;
+    height: 40px;
+}
+
+.book-an >p{
+    position: relative;
+    left: 10px;
+    bottom: 5px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.big-titel{
+    position: relative;
+    left: 20px;
+    color: #3498DB;
+    font-size: 35px;
+    font-weight: bold;
+    top: 15px;
+}
+
+.c-name{
+    position: relative;
+    left: 20px;
+}
+
+.in-name{
+    position: relative;
+    left: 30px;
+    border: 1px solid #3498DB;
+    width: 450px;
+    height: 30px;
+    background-color: white;
+    outline: non;
+    border-radius: 25px 25px 25px 25px;
+}
+
+.in-name >input{
+    position: relative;
+    top: 5px;
+    color: white;
+    outline: non;
+    border: 1px solid white;
+    left: 10px;
+}
+
+.in-email{
+    position: relative;
+    left: 500px;
+    border: 1px solid #3498DB;
+    width: 450px;
+    height: 30px;
+    background-color: white;
+    outline: non;
+    border-radius: 25px 25px 25px 25px;
+    bottom: 80px;
+}
+
+.in-email >input{
+    position: relative;
+    top: 5px;
+    color: white;
+    outline: non;
+    border: 1px solid white;
+    left: 10px;
+}
+
+.c-email{
+    position: relative;
+    left: 500px;
+    bottom: 80px;
+}
+
+.tex-doctor{
+    position: relative;
+    left: 20px;
+    bottom: 80px;
+}
+
+.texint-dr{
+    position: relative;
+    left: 30px ;
+    border: 1px solid #3498DB;
+    border-radius: 25px 25px 25px 25px;
+    bottom: 80px;
+    background-color: white;
+    width: 450px;
+    height: 30px;
+
+}
+.texint-dr >p{
+    position: relative;
+    bottom: 10px ;
+    left: 10px ;
+    color: #5B5B5B;
+}
+.select-1{
+    position: relative;
+    left: 400px;
+    bottom: 105px;
+}
+
+.text-dr-name{
+    position: relative;
+    left: 500px;
+    bottom: 170px;
+}
+
+.drr{
+    position: relative;
+    left: 500px ;
+    border: 1px solid #3498DB;
+    border-radius: 25px 25px 25px 25px;
+    bottom: 180px;
+    background-color: white;
+    width: 450px;
+    height: 30px;
+}
+.drr >p{
+    position: relative;
+    bottom: 10px ;
+    left: 10px ;
+    color: #5B5B5B;
+}
+
+.select-2{
+    position: relative;
+    left: 850px;
+    bottom: 205px;
+}
+
+.tex-date{
+    position: relative;
+    left: 20px;
+    bottom: 220px;
+}
+
+.in-date{
+    position: relative;
+    left: 30px;
+    border: 1px solid #3498DB;
+    background-color: white;
+    width: 450px;
+    height: 30px;
+    border-radius: 25px 25px 25px 25px;
+    bottom: 220px;
+    z-index: -1;
+}
+    
+.in-date >input{
+    position: relative;
+    left: 100px;
+    outline: non;
+    top: 5px;
+}
+
+.mi-text{
+    position: relative;
+    left: 40px;
+    color: #5B5B5B;
+    bottom: 145px;
+}
+
+.tex-time{
+    position: relative;
+    left:500px;
+    bottom: 300px;
+}
+
+.in-time{
+    position: relative;
+    left: 500px;
+    bottom: 330px;
+    border: 1px solid #3498DB;
+    background-color: white;
+    width: 450px;
+    height: 30px;
+    border-radius: 25px 25px 25px 25px;
+    z-index: -1;
+}
+
+.in-time >input{
+    position: relative;
+    top: 3px;
+    left: 100px;
+}
+
+.mi-time{
+    position: relative;
+    left: 520px;
+    color: #5B5B5B;
+    bottom: 290px;
+}
