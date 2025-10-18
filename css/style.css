@@ -1,4 +1,41 @@
- 
+ .father {
+  width: 100%;
+  max-width: 1200px;  /* لا تتجاوز هذا العرض على الحاسوب */
+  margin: 0 auto;     /* لتوسيط الصفحة */
+  padding: 0 20px;    /* مسافة صغيرة من الجوانب */
+  box-sizing: border-box;
+}
+
+/* اجعل الصور والعناصر لا تتجاوز عرض الشاشة */
+.father img,
+.father video,
+.father iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+/* 📱 الهاتف */
+@media (max-width: 768px) {
+  .father {
+    padding: 10px;
+  }
+
+  h1, h2, h3 {
+    font-size: 90%;  /* تقليل حجم الخط قليلاً */
+  }
+
+  p {
+    font-size: 95%;
+  }
+
+  /* أي عناصر داخلية يمكن جعلها عمودية */
+  .row, .flex {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
 body{
     overflow-x: hidden;
 } .background{
@@ -559,7 +596,7 @@ body{
     border: 1px solid rgb(255, 255, 255);
     width: 100%;
     height: 100px;
-    top: 1990px;
+    top: 1970px;
 }
 
 .statistique .a1{
@@ -594,32 +631,32 @@ body{
     color: rgb(41, 110, 189);
     font-size: 65px;
     font-weight: bold;
-    left: 920px;
+    left: 900px;
     bottom: 466px;
 }
 
 .nome-statistique .ap1{
     position: relative;
     left: 170px;
-    top:470px;
+    top:500px;
 }
 
 .nome-statistique .ap2{
     position: relative;
     left: 450px;
-    top:430px;
+    top:465px;
 }
 
 .nome-statistique .ap3{
     position: relative;
     left: 640px;
-    top:399px;
+    top:427px;
 }
 
 .nome-statistique .ap4{
     position: relative;
-    left: 950px;
-    top:363px;
+    left: 920px;
+    top:396px;
 }
 
 .Doctors{
@@ -645,6 +682,8 @@ body{
 .ourv{
     position: relative;
     left: 35px;
+    color: white;
+    font-weight: bold;
 }
 
 .meet{
@@ -924,7 +963,7 @@ body{
     position: relative;
     width: 200px;
     height: 220px;
-    left: 0px;
+    right: 30px;
 }
 .freyr{
     position: relative;
@@ -1070,7 +1109,7 @@ body{
     left: 20px;
     font-size: 16px;
     font-weight: bold;
-    color: gray;
+    color: rgb(255, 255, 255);
 }
 
 .titel-prix{
@@ -1349,6 +1388,8 @@ body{
     position: relative;
     left: 20px;
     top: 20px;
+    width: 80px;
+    height: 80px;
 }
 
 .number1{
@@ -1363,9 +1404,10 @@ body{
 
 .text-sp1{
     position: relative;
-    bottom: 140px;
+    bottom: 130px;
     left: 20px;
     color: #5B5B5B;
+    font-size: 12px;
 }
 
 .exp-sp1{
@@ -1382,6 +1424,14 @@ body{
     left: 5px;
 }
 
+.titel-sp1{
+    position: relative;
+    font-size: 22px;
+    font-weight: bold;
+    left: 20px;
+    bottom: 130px;
+    color: #3498DB;
+}
 .icon-exp-sp1{
     position: relative;
     left: 140px;
@@ -1415,11 +1465,22 @@ body{
 
 }
 
+.titel-sp2{
+    position: relative;
+    left: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    bottom: 130px;
+    color: #3498DB;
+
+}
+
 .text-sp2{
     position: relative;
     bottom: 140px;
     left: 20px;
     color: #5B5B5B;
+    font-size: 12px;
 }
 
 .exp-sp2{
@@ -1428,7 +1489,7 @@ body{
     color: red;
     left: 30px;
     width: 150px;
-    bottom: 130px;
+    bottom: 140px;
     border-radius: 50px 50px 50px 50px;
 }
 .exp-sp2 >p{
@@ -1438,8 +1499,8 @@ body{
 
 .icon-exp-sp2{
     position: relative;
-    left: 140px;
-    bottom: 165px;
+    left: 180px;
+    bottom: 185px;
 }
 
 .border-sp3{
@@ -1459,6 +1520,16 @@ body{
     top: 20px;
 }
 
+.titel-sp3{
+    position: relative;
+    left: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    bottom: 130px;
+    color: #3498DB;
+
+}
+
 .number3{
     position: relative;
     left: 220px;
@@ -1474,6 +1545,7 @@ body{
     bottom: 140px;
     left: 20px;
     color: #5B5B5B;
+    font-size: 12px;
 }
 
 .exp-sp3{
@@ -1482,7 +1554,7 @@ body{
     color: red;
     left: 30px;
     width: 150px;
-    bottom: 130px;
+    bottom: 140px;
     border-radius: 50px 50px 50px 50px;
 }
 .exp-sp3 >p{
@@ -1493,7 +1565,7 @@ body{
 .icon-exp-sp3{
     position: relative;
     left: 140px;
-    bottom: 165px;
+    bottom: 175px;
 }
 
 .border-sp4{
@@ -1513,6 +1585,15 @@ body{
     top: 20px;
 }
 
+.titel-sp4{
+    position: relative;
+    left: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    bottom: 140px;
+    color: #3498DB;
+
+}
 .number4{
     position: relative;
     left: 220px;
@@ -1525,9 +1606,10 @@ body{
 
 .text-sp4{
     position: relative;
-    bottom: 140px;
+    bottom: 150px;
     left: 20px;
     color: #5B5B5B;
+    font-size: 12px;
 }
 
 .exp-sp4{
@@ -1536,7 +1618,7 @@ body{
     color: red;
     left: 30px;
     width: 150px;
-    bottom: 130px;
+    bottom: 140px;
     border-radius: 50px 50px 50px 50px;
 }
 .exp-sp4 >p{
@@ -1547,7 +1629,7 @@ body{
 .icon-exp-sp4{
     position: relative;
     left: 140px;
-    bottom: 165px;
+    bottom: 175px;
 }
 
 .border-sp5{
@@ -1566,7 +1648,15 @@ body{
     left: 20px;
     top: 20px;
 }
+.titel-sp5{
+    position: relative;
+    left: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    bottom: 140px;
+    color: #3498DB;
 
+}
 .number5{
     position: relative;
     left: 220px;
@@ -1579,9 +1669,10 @@ body{
 
 .text-sp5{
     position: relative;
-    bottom: 140px;
+    bottom: 150px;
     left: 20px;
     color: #5B5B5B;
+    font-size: 12px;
 }
 
 .exp-sp5{
@@ -1590,7 +1681,7 @@ body{
     color: red;
     left: 30px;
     width: 150px;
-    bottom: 130px;
+    bottom: 140px;
     border-radius: 50px 50px 50px 50px;
 }
 .exp-sp5 >p{
@@ -1601,7 +1692,7 @@ body{
 .icon-exp-sp5{
     position: relative;
     left: 140px;
-    bottom: 165px;
+    bottom: 175px;
 }
 
 .border-sp6{
@@ -1620,7 +1711,15 @@ body{
     left: 20px;
     top: 20px;
 }
+.titel-sp6{
+    position: relative;
+    left: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    bottom: 140px;
+    color: #3498DB;
 
+}
 .number6{
     position: relative;
     left: 220px;
@@ -1633,9 +1732,10 @@ body{
 
 .text-sp6{
     position: relative;
-    bottom: 140px;
+    bottom: 150px;
     left: 20px;
     color: #5B5B5B;
+    font-size: 12px;
 }
 
 .exp-sp6{
@@ -1644,7 +1744,7 @@ body{
     color: red;
     left: 30px;
     width: 150px;
-    bottom: 130px;
+    bottom: 140px;
     border-radius: 50px 50px 50px 50px;
 }
 .exp-sp6 >p{
@@ -1655,7 +1755,7 @@ body{
 .icon-exp-sp6{
     position: relative;
     left: 140px;
-    bottom: 165px;
+    bottom: 175px;
 }
 
 .prix-rooms{
