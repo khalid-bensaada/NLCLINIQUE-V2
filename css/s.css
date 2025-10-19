@@ -1,0 +1,104 @@
+footer{
+    position: relative;
+    height: 600px;
+    top: 2200px;
+    background-color: rgba(245, 248, 250, 1);
+}
+.footer-container-s{
+    display: flex;
+    gap: 100px;
+}
+.logo-email-s{
+    display: flex;
+    gap: 30px;
+    height: 400px;
+    flex-direction: column;
+    margin-left: 60px;
+}
+.email-subscribe-s{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.email-subscribe-s div{
+    width: 170px;
+    height: 50px;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    border: 1px solid blue;
+    color: rgba(62, 52, 193, 0.715);
+    cursor: pointer;
+}
+.email-subscribe-s input{
+    width: 270px;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+    border: 1px solid blue;
+}
+.logo-email-s div p{
+    color: rgba(0, 0, 255, 0.656);
+    font-size: 16px;
+}
+.footer-links-s{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 60px;
+}
+.footer-links-s div div{
+    display: flex;
+    height: 250px;
+    width: 800px;
+    gap: 25px;
+}
+.quick-links-s div{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 300px;
+    
+}
+.quick-links-s{
+    display: flex;
+    height: 200px;
+    width: 300px;
+}
+.quick-links-s div ul li{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.quick-links-s div ul li a:hover{
+    color: rgb(125, 111, 111);
+}
+.quick-links-a div h1{
+    color: rgba(42, 17, 186, 0.774);
+}
+.location-s{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    right: 600px;
+}
+.location-s h1{
+    color: rgba(0, 0, 255, 0.571);
+    
+}
+.location-s p{
+    color: rgba(0, 0, 0, 0.485);
+   
+}
+.footer-icons-s{
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    left: 78px;
+    bottom: 65px;
+}

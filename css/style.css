@@ -61,19 +61,23 @@ body{
     font-size: 15px;
     margin-right: 40px;
     left: 400px;
-    bottom: 20px;
+    top: 5px;
     
 }
 
 .navigation{
     position: absolute;
+    background-color: #3498DB;
+    width: 100%;
+    height: 120px;
+    right: 5px;
 }
 
 .search .input-search{
     position: absolute;
     border: 2px solid rgb(255, 255, 255);
     left: 1000px;
-    top:20px;
+    top:40px;
 }
 
 .mune-ul >li>a{
@@ -86,14 +90,14 @@ body{
 
 .logo{
     position: relative;
-    top: 10px;
+    top: 30px;
     left:200px;
 }
 
 .logo-search>img{
     position:relative;
-    left: 1100px;
-    bottom: 75px;
+    left: 980px;
+    bottom: 25px;
     width: 20px;
     height: 20px;
 }
@@ -214,7 +218,7 @@ body{
     position:relative;
     color: rgb(255, 255, 255);
     left: 320px;
-    top: 50px;
+    top: 420px;
     text-align: center;
     font-weight: 100;
 }
@@ -437,7 +441,7 @@ body{
     
     width: 1250px;
     height: 833px;
-    top: 400px;
+    top: 120px;
 }
 .border-about{
     border: 1px solid rgb(206, 207, 208);
@@ -605,7 +609,7 @@ body{
     font-size: 65px;
     font-weight: bold;
     left: 150px;
-    bottom: 50px;
+    bottom: 1050px;
 }
 
 .statistique .a2{
@@ -614,7 +618,8 @@ body{
     font-size: 65px;
     font-weight: bold;
     left: 450px;
-    bottom: 190px;
+    bottom: 1185px;
+    
 }
 
 .statistique .a3{
@@ -623,7 +628,8 @@ body{
     font-size: 65px;
     font-weight: bold;
     left: 630px;
-    bottom: 330px;
+    bottom: 1325px;
+    
 }
 
 .statistique .a4{
@@ -632,31 +638,32 @@ body{
     font-size: 65px;
     font-weight: bold;
     left: 900px;
-    bottom: 466px;
+    bottom: 1460px;
+    
 }
 
 .nome-statistique .ap1{
     position: relative;
     left: 170px;
-    top:500px;
+    top: 200px;
 }
 
 .nome-statistique .ap2{
     position: relative;
     left: 450px;
-    top:465px;
+    top:170px;
 }
 
 .nome-statistique .ap3{
     position: relative;
     left: 640px;
-    top:427px;
+    top:140px;
 }
 
 .nome-statistique .ap4{
     position: relative;
     left: 920px;
-    top:396px;
+    top:110px;
 }
 
 .Doctors{
@@ -665,7 +672,7 @@ body{
     width: 1250px;
     height:1950px;
     background-color: #D6F6FD;
-    top: 2110px;
+    top: 120px;
 }
 
 .our{
@@ -956,7 +963,7 @@ body{
     width: 300px;
     height: 400px;
     left: 900px;
-    top: 720px;
+    top: 710px;
     border-radius: 25px 25px 25px 25px;
 }
 .freyr >img{
@@ -1087,7 +1094,7 @@ body{
     position: absolute;
     border:1px solid #ffffff;
     background-color: #ffffff;
-    top: 4000px;
+    top: 2000px;
     width: 100%;
     
 }
@@ -1325,7 +1332,7 @@ body{
     position: absolute;
     border:1px solid #FF6F61;
     background-color: #D6F6FD;
-    top: 4700px;
+    top: 120px;
     width: 100%;
     height: 1000px;
 }
@@ -1764,7 +1771,7 @@ body{
     width: 100%;
     height: 1000px;
     background-color: rgb(255, 255, 255);
-    top: 5750px;
+    top: 1150px;
 }
 
 
@@ -2201,7 +2208,7 @@ body{
 .contact{
     background:  url(../images/Frame.png);
     
-    top: 7000px;
+    top: 120px;
     position: absolute;
     width: 1250px;
     height:876px;
@@ -2421,4 +2428,106 @@ body{
     left: 520px;
     color: #5B5B5B;
     bottom: 290px;
+}
+
+/*footer*/
+
+footer{
+    position: relative;
+    height: 600px;
+    top: 400px;
+    background-color: rgba(245, 248, 250, 1);
+}
+.footer-container{
+    display: flex;
+    gap: 100px;
+}
+.logo-email{
+    display: flex;
+    gap: 30px;
+    height: 400px;
+    flex-direction: column;
+    margin-left: 60px;
+}
+.email-subscribe{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.email-subscribe div{
+    width: 170px;
+    height: 50px;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    border: 1px solid blue;
+    color: rgba(62, 52, 193, 0.715);
+    cursor: pointer;
+}
+.email-subscribe input{
+    width: 270px;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+    border: 1px solid blue;
+}
+.logo-email div p{
+    color: rgba(0, 0, 255, 0.656);
+    font-size: 16px;
+}
+.footer-links{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 60px;
+}
+.footer-links div div{
+    display: flex;
+    height: 250px;
+    width: 800px;
+    gap: 25px;
+}
+.quick-links div{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 300px;
+}
+.quick-links{
+    display: flex;
+    height: 200px;
+    width: 300px;
+}
+.quick-links div ul li{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.quick-links div ul li a:hover{
+    color: rgb(125, 111, 111);
+}
+.quick-links div h1{
+    color: rgba(42, 17, 186, 0.774);
+}
+.location{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.location h1{
+    color: rgba(0, 0, 255, 0.571);
+}
+.location p{
+    color: rgba(0, 0, 0, 0.485);
+}
+.footer-icons{
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    left: 78px;
+    bottom: 65px;
 }
